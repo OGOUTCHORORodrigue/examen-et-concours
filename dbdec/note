@@ -1,0 +1,4 @@
+<?php foreach ($donnee as $key => $option) { ?>
+                    <option value="<?= $option['codeOpt'] ?>">
+                    <?= $option['nomOpt'] ?></option>
+                <?php  } ?>
